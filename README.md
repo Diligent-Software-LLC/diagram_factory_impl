@@ -9,7 +9,7 @@ A DiagramFactory library implementation.
 
 ## Documentation
 
-- Refer the Implementation  
+- Refer the Implementation 
 [Homepage](https://docs.diligentsoftware.org/diagram-1/factory/implementation).
 
 ## Contributing
