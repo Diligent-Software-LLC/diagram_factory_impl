@@ -5,7 +5,7 @@ require 'diagram_factory_int'
 
 # DiagramFactory.
 # @class_description
-#   A DiagramFactory library implementation.
+#   A DiagramFactory library's implementation.
 # @attr instance [DiagramFactory]
 #   A DiagramFactory singleton instance.
 # @attr inventory [Set]
@@ -13,5 +13,5 @@ require 'diagram_factory_int'
 #   instances, and the values are Sets. The value Set elements are particular
 #   kind diagrams.
 class DiagramFactory < DiagramFactoryInt
-  VERSION = '0.1.0'.freeze()
+  VERSION = '0.2.0'.freeze()
 end

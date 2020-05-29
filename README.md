@@ -1,15 +1,15 @@
 # diagram_factory_impl [![Gem Version](https://badge.fury.io/rb/diagram_factory_impl.svg)](https://badge.fury.io/rb/diagram_factory_impl) ![Gem](https://img.shields.io/gem/dt/diagram_factory_impl) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/diagram_factory_impl.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/diagram_factory_impl)
 
-A DiagramFactory library implementation.
+A DiagramFactory library's implementation.
 
 ## Installation
 
-- Refer the Implementation 
+- Refer Implementation's 
 [Packages](https://docs.diligentsoftware.org/diagram-1/factory/packages#implementation).
 
 ## Documentation
 
-- Refer the Implementation 
+- Refer Implementation's 
 [Homepage](https://docs.diligentsoftware.org/diagram-1/factory/implementation).
 
 ## Contributing
