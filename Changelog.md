@@ -1,5 +1,24 @@
 # Changelog
 
+## v0.2.0, 2020-05-30
+
+### Added
+
+- Added diagram_comp 'require'ment.
+- Added node_comp test 'require'ment.
+- Added node_comp, data_library, and node_error dependencies.
+
+### Edited
+
+- Updated dependencies.
+- Reformatted README.md.
+- Deleted diagram 'require'ment.
+- Deleted node test 'require'ment.
+
+### Fixed
+
+- Gem Specification homepage and changelog URI.
+
 ## v0.1.0, 2020-05-11
 
 ### Added
