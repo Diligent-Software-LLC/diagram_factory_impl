@@ -1,20 +1,45 @@
 PATH
   remote: .
   specs:
-    diagram_factory_impl (0.1.0)
+    diagram_factory_impl (0.2.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    data_error (3.0.0)
+      data_error_impl (~> 3)
+      data_error_int (~> 3)
+    data_error_impl (3.0.0)
+    data_error_int (3.0.0)
+    data_impl (0.2.0)
+    data_int (0.2.0)
+    data_library (0.2.0)
+      data_error (~> 3)
+      data_impl (~> 0)
+      data_int (~> 0)
+    data_structure_error_impl (3.0.0)
+    data_structure_error_int (3.0.0)
     diagram_comp (0.1.0)
       diagram_impl (~> 0)
       diagram_int (~> 0)
     diagram_factory_int (1.0.0)
-    diagram_impl (0.1.1)
+    diagram_impl (0.2.0)
     diagram_int (0.1.0)
     docile (1.3.2)
-    minitest (5.14.0)
-    node_diagram_impl (0.1.0)
+    minitest (5.14.1)
+    node_comp (1.0.0)
+      node_impl (~> 4)
+      node_int (~> 3)
+    node_diagram_impl (0.2.0)
+    node_error (4.0.0)
+      data_structure_error_impl (~> 3)
+      data_structure_error_int (~> 3)
+      node_error_impl (~> 2)
+      node_error_int (~> 2)
+    node_error_impl (2.0.0)
+    node_error_int (2.0.0)
+    node_impl (4.0.0)
+    node_int (3.0.0)
     rake (13.0.1)
     simplecov (0.18.5)
       docile (~> 1.1)
@@ -26,11 +51,14 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.1)
+  data_library (~> 0)
   diagram_comp (~> 0)
   diagram_factory_impl!
   diagram_factory_int (~> 1)
   minitest (~> 5.0)
+  node_comp (~> 1)
   node_diagram_impl (~> 0)
+  node_error (~> 4)
   rake (~> 13.0)
   simplecov (~> 0)
 

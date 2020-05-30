@@ -2,7 +2,7 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "diagram_factory_impl/version"
-require 'diagram'
+require 'diagram_comp'
 require 'set'
 
 # DiagramFactory.

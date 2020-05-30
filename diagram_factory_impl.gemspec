@@ -44,5 +44,8 @@ donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
   spec.add_development_dependency 'diagram_factory_int', '~> 1'
   spec.add_development_dependency 'diagram_comp', '~> 0'
   spec.add_development_dependency 'node_diagram_impl', '~> 0'
+  spec.add_development_dependency 'node_comp', '~> 1'
+  spec.add_development_dependency 'data_library', '~> 0'
+  spec.add_development_dependency 'node_error', '~> 4'
 
 end
