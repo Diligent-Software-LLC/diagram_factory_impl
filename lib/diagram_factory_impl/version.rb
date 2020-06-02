@@ -13,5 +13,5 @@ require 'diagram_factory_int'
 #   instances, and the values are Sets. The value Set elements are particular
 #   kind diagrams.
 class DiagramFactory < DiagramFactoryInt
-  VERSION = '0.2.0'.freeze()
+  VERSION = '1.0.0'.freeze()
 end

@@ -2,7 +2,6 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "diagram_factory_impl/version"
-require 'diagram_comp'
 require 'set'
 
 # DiagramFactory.
@@ -85,9 +84,7 @@ class DiagramFactory < DiagramFactoryInt
   def diagram_exists(diagrammable = nil)
 
     inventory().each { |model|
-      if (model.key?(diagrammable)) then
-        return(true)
-      end
+      if (model.key?(diagrammable)) then return(true) end
     }
     return false
 
@@ -111,9 +108,7 @@ class DiagramFactory < DiagramFactoryInt
         diagram_set     = diagrams(diagrammable)
         kind_key_exists = false
         diagram_set.to_a().each { |model|
-          if (model.key?(kind)) then
-            kind_key_exists = true
-          end
+          if (model.key?(kind)) then kind_key_exists = true end
         }
         return (diagram_set.instance_of?(Set) && kind_key_exists)
 
@@ -196,9 +191,7 @@ class DiagramFactory < DiagramFactoryInt
     if (diagram_exists(diagrammable))
 
       inventory().to_a().each { |model|
-        if (model.key?(diagrammable)) then
-          return model[diagrammable]
-        end
+        if (model.key?(diagrammable)) then return model[diagrammable] end
       }
 
     else
@@ -226,9 +219,7 @@ class DiagramFactory < DiagramFactoryInt
 
         arg_kind = diagrammable.kind()
         d_set.to_a().each { |diagram|
-          if (diagram.key?(arg_kind)) then
-            return diagram[arg_kind]
-          end
+          if (diagram.key?(arg_kind)) then return diagram[arg_kind] end
         }
 
       end
