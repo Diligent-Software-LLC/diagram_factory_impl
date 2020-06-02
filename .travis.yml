@@ -6,4 +6,4 @@ rvm:
   - 2.6.5
 before_install:
   - gem install bundler -v 2.1.2
-  - gem install diagram_factory_int '>= 1'
+  - gem install diagram_factory_int -v '>= 1'

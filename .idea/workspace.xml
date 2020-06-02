@@ -25,10 +25,7 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3be3259c-b554-4650-8cc3-27652db211ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
-    </list>
+    <list default="true" id="3be3259c-b554-4650-8cc3-27652db211ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +261,7 @@
       <workItem from="1590844872159" duration="2744000" />
       <workItem from="1591114652550" duration="21000" />
       <workItem from="1591115492286" duration="167000" />
-      <workItem from="1591116113299" duration="3255000" />
+      <workItem from="1591116113299" duration="3502000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added the Gem Specification file. Added README.md.">
       <created>1588037902762</created>
@@ -322,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591122043274</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1591125442507</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591125442507</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Prepare Deployment&#10;&#10;Testing dependency bug.">
+      <created>1591125652634</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591125652634</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Diagram Subsystem:{ Factory } Component: Implementation Sprints: 5 State: {Prepare Deployment}" />
@@ -353,19 +364,20 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;Fixed README.md typo." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Fixed Gem Specification homepage and changelog URI. Updated dependencies. Reformatted README.md." />
     <MESSAGE value="Development Complete&#10;&#10;Deleted diagram 'require'ment. Added diagram_comp 'require'ment. Deleted node test 'require'ment. Added node_comp test 'require'ment. Added node_comp, data_library, and node_error dependencies." />
-    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Development Complete&#10;&#10;Bumped Major Version. Reformatted. Deleted tests requiring external dependencies other than diagram_factory_int. Deleted node_comp, node_diagram_impl, and diagram_comp 'require'ments. Deleted diagram_comp, node_diagram_impl, node_comp, data_library, and node_error development dependencies. Added FUNDING.yml." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Bumped Major Version. Reformatted. Deleted tests requiring external dependencies other than diagram_factory_int. Deleted node_comp, node_diagram_impl, and diagram_comp 'require'ments. Deleted diagram_comp, node_diagram_impl, node_comp, data_library, and node_error development dependencies. Added FUNDING.yml." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Testing dependency bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Testing dependency bug." />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="175" key="#Servers" timestamp="1588036721805">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="434" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588036721805" />
-    <state x="65" y="47" width="1541" height="908" key="CommitChangelistDialog2" timestamp="1591125441854">
+    <state x="65" y="47" width="1541" height="908" key="CommitChangelistDialog2" timestamp="1591125652023">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="65" y="47" width="1541" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591125441854" />
+    <state x="65" y="47" width="1541" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591125652023" />
     <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1591121690723">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -414,10 +426,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="1545" height="335" key="GridCell.Tab.2.right/0.23.1680.975@0.23.1680.975" timestamp="1589234443735" />
-    <state x="448" y="250" key="Vcs.Push.Dialog.v2" timestamp="1591125478593">
+    <state x="448" y="250" key="Vcs.Push.Dialog.v2" timestamp="1591125657248">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="448" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1591125478593" />
+    <state x="448" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1591125657248" />
     <state x="426" y="235" width="816" height="550" key="find.popup" timestamp="1588037344150">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
