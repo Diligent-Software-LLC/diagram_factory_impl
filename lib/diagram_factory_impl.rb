@@ -13,7 +13,7 @@ require 'set'
 #   The elements are hashes containing diagrams. The keys are children
 #   instances, and the values are Sets. The value Set elements are particular
 #   kind diagrams.
-class DiagramFactory #< DiagramFactoryInt
+class DiagramFactory < DiagramFactoryInt
 
   # self.instance().
   # @description
