@@ -26,15 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be3259c-b554-4650-8cc3-27652db211ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/diagram_factory_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diagram_factory_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagram_factory_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/diagram_factory_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/diagram_factory_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_factory_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/diagram_factory_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_factory_impl/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/diagram_factory_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/diagram_factory_impl_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +264,7 @@
       <workItem from="1590844872159" duration="2744000" />
       <workItem from="1591114652550" duration="21000" />
       <workItem from="1591115492286" duration="167000" />
-      <workItem from="1591116113299" duration="2213000" />
+      <workItem from="1591116113299" duration="3255000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added the Gem Specification file. Added README.md.">
       <created>1588037902762</created>
@@ -322,10 +315,17 @@
       <option name="project" value="LOCAL" />
       <updated>1590846373840</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Development Complete&#10;&#10;Bumped Major Version. Reformatted. Deleted tests requiring external dependencies other than diagram_factory_int. Deleted node_comp, node_diagram_impl, and diagram_comp 'require'ments. Deleted diagram_comp, node_diagram_impl, node_comp, data_library, and node_error development dependencies. Added FUNDING.yml.">
+      <created>1591122043273</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591122043274</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Diagram Subsystem:{ Factory } Component: Implementation Sprints: 5 State: {Development}" />
+        <option name="defaultSearch" value="project: Diagram Subsystem:{ Factory } Component: Implementation Sprints: 5 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -354,17 +354,18 @@
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Fixed Gem Specification homepage and changelog URI. Updated dependencies. Reformatted README.md." />
     <MESSAGE value="Development Complete&#10;&#10;Deleted diagram 'require'ment. Added diagram_comp 'require'ment. Deleted node test 'require'ment. Added node_comp test 'require'ment. Added node_comp, data_library, and node_error dependencies." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <MESSAGE value="Development Complete&#10;&#10;Bumped Major Version. Reformatted. Deleted tests requiring external dependencies other than diagram_factory_int. Deleted node_comp, node_diagram_impl, and diagram_comp 'require'ments. Deleted diagram_comp, node_diagram_impl, node_comp, data_library, and node_error development dependencies. Added FUNDING.yml." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Bumped Major Version. Reformatted. Deleted tests requiring external dependencies other than diagram_factory_int. Deleted node_comp, node_diagram_impl, and diagram_comp 'require'ments. Deleted diagram_comp, node_diagram_impl, node_comp, data_library, and node_error development dependencies. Added FUNDING.yml." />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="175" key="#Servers" timestamp="1588036721805">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="434" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588036721805" />
-    <state x="65" y="47" width="1541" height="908" key="CommitChangelistDialog2" timestamp="1590846373231">
+    <state x="65" y="47" width="1541" height="908" key="CommitChangelistDialog2" timestamp="1591122042813">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="65" y="47" width="1541" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590846373231" />
+    <state x="65" y="47" width="1541" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591122042813" />
     <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1591121690723">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -425,10 +426,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="513" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1591120875354" />
-    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1591118065844">
+    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1591122095577">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1591118065844" />
+    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1591122095577" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/diagram_factory_impl@test_du_x2.rcov" NAME="test_du_x2 Coverage Results" MODIFIED="1589233500712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_factory_impl" />

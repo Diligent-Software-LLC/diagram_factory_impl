@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.0.0, 2020-06-02
+
+### Added
+
+- FUNDING.yml.
+
+### Edited
+
+- Reformatted.
+- Deleted tests requiring external dependencies other than diagram_factory_int.
+- Deleted node_comp, node_diagram_impl, and diagram_comp 'require'ments.
+- Deleted diagram_comp, node_diagram_impl, node_comp, data_library, and 
+node_error development dependencies.
+
+### Fixed
+
 ## v0.2.0, 2020-05-30
 
 ### Added
